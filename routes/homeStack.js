@@ -10,14 +10,7 @@ const screens = {
     Home: {
         screen: Home,
         navigationOptions: {
-            title: 'Sessions',
-            headerRight: () => (
-                <Button
-                  onPress={({navigation}) => navigation.navigate('NewSession')}
-                  title="add"
-                  color="#fff"
-                />
-              ),
+            title: 'Sessions'
         }
     },
     Session: {
